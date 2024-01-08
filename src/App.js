@@ -9,6 +9,7 @@ import Doctors from "./components/Doctors";
 import Appointment from "./components/Appointment";
 import Footer from "./components/Footer";
 import Copyright from "./components/Copyright";
+import Comment from "./components/Comment";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
     <Services></Services>
     <About></About>
     <Doctors></Doctors>
+    <Comment></Comment>
     <Appointment></Appointment>
     <Footer></Footer>
     <Copyright></Copyright>

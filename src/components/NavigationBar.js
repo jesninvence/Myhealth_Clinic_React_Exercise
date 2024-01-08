@@ -1,5 +1,5 @@
 import "../style.css";
-import { Link } from 'react-router-dom';
+import "../script.js";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { faXmark } from "@fortawesome/free-solid-svg-icons";
@@ -23,16 +23,14 @@ const NavigationBar = () => {
             {/* <button className="display-sm hide-xlg" id="mobile-button">
                 <FontAwesomeIcon className="icon" icon={faBars} />
             </button> */}
-            <span className="navbar-toggler-icon hide-xl hide-lg display-md display-sm hide-xlg" id="mobile-button">
-                <FontAwesomeIcon className="icon" icon={faBars} />
-            </span>
+            <FontAwesomeIcon className="icon hide-xl hide-lg display-md display-sm hide-xlg" id="mobile-button" icon={faBars} />
         </header>
         <div class="mobile text-center" id="mobile-content">
             <p><a href="#">Home</a></p>
-            <p><a href="#">Services</a></p>
-            <p><a href="#">About Us</a></p>
-            <p><a href="#">Doctors</a></p>
-            <p><a className="apt-mob" href="#">Appointment</a></p>
+            <p><a href="#services">Services</a></p>
+            <p><a href="#about">About Us</a></p>
+            <p><a href="#doctor">Doctors</a></p>
+            <p><a className="apt-mob" href="#appointment">Appointment</a></p>
 
             <button className="mobile__close" id="mobile-close">
                 <FontAwesomeIcon icon={faXmark} />
@@ -41,22 +39,6 @@ const NavigationBar = () => {
         </div>
         </>
     )
-}
-
-const mobileButton = document.getElementById('mobile-button'),
-    mobileClose = document.getElementById('mobile-close'),
-    mobileContent = document.getElementById('mobile-content')
-
-if(mobileButton){
-    mobileButton.addEventListener('click', () =>{
-        mobileContent.classList.add('show-mobile')
-    })
-}
-
-if(mobileClose){
-    mobileClose.addEventListener('click', () => {
-        mobileContent.classList.remove('show-mobile')
-    })
 }
 
 export default NavigationBar;

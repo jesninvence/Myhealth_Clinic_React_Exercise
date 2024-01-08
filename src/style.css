@@ -64,7 +64,30 @@ header {
 
 .apt:hover {
   background-color: #1865ad;
-} 
+}
+
+@media (max-width: 426px) {
+  header .icon {
+    color: #0a3f71 !important;
+  }
+
+  .landingPage .card h5{
+    margin-top: 7rem !important;
+  }
+  .landingPage .card {
+    padding: 0px 30px 0px 50px !important;
+  }
+  .landingPage .card .book {
+    width: 70% !important;
+  }
+  .landingPage .card h5, h1, p, button {
+    margin-left: 0rem !important;
+  }
+
+  .patient {
+    margin-bottom: 0rem !important;
+  }
+}
 
 @media screen and (max-width: 575px) {
   .hide-xs {
@@ -79,6 +102,7 @@ header {
   }
   header .icon {
     font-size: 25px;
+    color: #0a3f71;
   }
 
   .mobile p {
@@ -94,6 +118,7 @@ header {
     padding: 0px 0px 0px 0px !important;
   }
   .landingPage .card {
+    padding: 0px 30px 0px 50px !important;
     margin-top: 4rem !important;
   }
   .landingPage .card button {
@@ -130,6 +155,10 @@ header {
     width: 100% !important;
     font-size: 20px !important;
   }
+
+  .patient {
+    margin-bottom: 0rem !important;
+  }
 }
 
 @media (min-width: 575px) { 
@@ -163,6 +192,7 @@ header {
     padding: 0px 30px 0px 0px !important;
   }
   .landingPage .card {
+    padding: 0px 30px 0px 50px !important;
     margin-top: 3rem !important;
     margin-bottom: 5rem !important;
   }
@@ -223,6 +253,10 @@ header {
     font-size: 20px !important;
   }
 
+  .patient {
+    margin-bottom: 0rem !important;
+  }
+
   .footer .row {
     padding: 0px !important;
   }
@@ -248,10 +282,10 @@ header {
   }
 
   .mobile p {
-    margin: 3.5rem !important;
+    margin: 4rem !important;
   }
   .mobile p a {
-    font-size: 35px !important;
+    font-size: 25px !important;
   }
   .mobile .mobile__close {
     margin-top: 2rem;
@@ -318,6 +352,13 @@ header {
   }
   .doctor .card button {
     font-size: 8.5px !important;
+  }
+
+  .patient {
+    width: 100%;
+  }
+  .patient .card {
+    width: 100%;
   }
 }
 
@@ -740,12 +781,58 @@ section .card p {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
   transition: .3s ease-in-out;
 }
+
+/**** COMMENT ****/
+
+.patient {
+  position: relative !important;
+  background-color: #f9f9fd;
+  padding: 50px 50px !important;
+  margin-top: 4rem;
+}
+
+.patient h6 {
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 13px;
+  color: #3b3b3b;
+}
+
+.clients {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 300;
+  color: #3b3b3b;
+  margin-bottom: 5rem;
+}
+
+.quote {
+  background-color: #0a3f71;
+}
+
+.comment-swiper .card {
+  border-radius: 0px;
+  background-color: #fafafa;
+  padding: 10px 10px;
+  border: none;
+  margin-bottom: 5rem !important;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
+
+.comment-swiper .card .card-title {
+  font-weight: 600;
+}
+
+.comment-swiper .card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
 /**** APPOINTMENT ****/
 
 /*** https://preview.colorlib.com/#medical ***/
 
 .apment {
-  margin-top: 5rem;
   padding: 50px 0px;
   background-color: #f9f9fd;
 }

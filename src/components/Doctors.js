@@ -3,7 +3,6 @@ import "../style.css";
 import doc1 from "../images/doc1.webp";
 import doc2 from "../images/doc2.webp";
 import doc3 from "../images/doc3.webp";
-import {Link} from "react-router-dom";
 
 const Doctors = () => {
 
