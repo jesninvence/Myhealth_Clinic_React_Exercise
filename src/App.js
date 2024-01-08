@@ -9,7 +9,6 @@ import Doctors from "./components/Doctors";
 import Appointment from "./components/Appointment";
 import Footer from "./components/Footer";
 import Copyright from "./components/Copyright";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
