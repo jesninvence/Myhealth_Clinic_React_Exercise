@@ -30,72 +30,60 @@ const Comment = () => {
                     onSwiper={(swiper) => console.log(swiper)}
                     onSlideChange={() => console.log('slide change')}
                     >
-                    <div className="row">
-                        <div className="col-12">
-                        </div>
-                    </div>
                     <SwiperSlide>
-                        <div className="card mb-3" style={{maxWidth: "550px"}}>
-                            <div className="row g-0">
-                                <div className="col-md-5 ">
-                                    <img src={commentor1} className="img-fluid rounded-start" alt=""/>
-                                </div>
-                                <div className="col-md-7">
-                                    <div className="card-body">
-                                        <h5 className="card-title">Jake Paul</h5>
-                                        <p className="card-text text-secondary">Odio ultrices ut. Etiam ac erat ut enim maximus accumsan vel ac nisl. Duis feugiat bibendum orci, non elementum urna.</p>
-                                        <p className="card-text"><small className="text-primary">Patients</small></p>
-                                    </div>
-                                </div>
+                        <div className="testimonial">
+                            <div className="pic">
+                            <img src={commentor1} className="" alt=""/>
                             </div>
+                            <div className="testimonial-profile">
+                                <h3 className="">Steve Thomas</h3>
+                                <span className="post">Patient</span>
+                            </div>
+                            <p className="description text-center">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam varius eros consequat auctor gravida. Fusce tristique lacus at urna sollicitudin pulvinar. Suspendisse hendrerit ultrices mauris.
+                            </p>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <div className="card mb-3" style={{maxWidth: "550px"}}>
-                            <div className="row g-0">
-                                <div className="col-md-5">
-                                    <img src={commentor2} className="img-fluid rounded-start" alt=""/>
-                                </div>
-                                <div className="col-md-7">
-                                    <div className="card-body">
-                                        <h5 className="card-title">Sarah Ruiz</h5>
-                                        <p className="card-text text-secondary">Odio ultrices ut. Etiam ac erat ut enim maximus accumsan vel ac nisl. Duis feugiat bibendum orci, non elementum urna.</p>
-                                        <p className="card-text"><small className="text-primary">Patients</small></p>
-                                    </div>
-                                </div>
+                        <div className="testimonial">
+                            <div className="pic">
+                            <img src={commentor2} className="" alt=""/>
                             </div>
+                            <div className="testimonial-profile">
+                                <h3 className="">Kristina</h3>
+                                <span className="post">Patient</span>
+                            </div>
+                            <p className="description text-center">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam varius eros consequat auctor gravida. Fusce tristique lacus at urna sollicitudin pulvinar. Suspendisse hendrerit ultrices mauris.
+                            </p>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <div className="card mb-3" style={{maxWidth: "550px"}}>
-                            <div className="row g-0">
-                                <div className="col-md-5">
-                                    <img src={commentor1} className="img-fluid rounded-start" alt=""/>
-                                </div>
-                                <div className="col-md-7">
-                                    <div className="card-body">
-                                        <h5 className="card-title">Jake Paul</h5>
-                                        <p className="card-text text-secondary">Odio ultrices ut. Etiam ac erat ut enim maximus accumsan vel ac nisl. Duis feugiat bibendum orci, non elementum urna.</p>
-                                        <p className="card-text"><small className="text-primary">Patients</small></p>
-                                    </div>
-                                </div>
+                        <div className="testimonial">
+                            <div className="pic">
+                            <img src={commentor1} className="" alt=""/>
                             </div>
+                            <div className="testimonial-profile">
+                                <h3 className="">Steve Thomas</h3>
+                                <span className="post">Patient</span>
+                            </div>
+                            <p className="description text-center">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam varius eros consequat auctor gravida. Fusce tristique lacus at urna sollicitudin pulvinar. Suspendisse hendrerit ultrices mauris.
+                            </p>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <div className="card mb-3" style={{maxWidth: "550px"}}>
-                            <div className="row g-0">
-                                <div className="col-md-5">
-                                    <img src={commentor2} className="img-fluid rounded-start" alt=""/>
-                                </div>
-                                <div className="col-md-7">
-                                    <div className="card-body">
-                                        <h5 className="card-title">Sarah Ruiz</h5>
-                                        <p className="card-text text-secondary">Odio ultrices ut. Etiam ac erat ut enim maximus accumsan vel ac nisl. Duis feugiat bibendum orci, non elementum urna.</p>
-                                        <p className="card-text"><small className="text-primary">Patients</small></p>
-                                    </div>
-                                </div>
+                        <div className="testimonial">
+                            <div className="pic">
+                            <img src={commentor2} className="" alt=""/>
                             </div>
+                            <div className="testimonial-profile">
+                                <h3 className="">Kristina</h3>
+                                <span className="post">Patient</span>
+                            </div>
+                            <p className="description text-center">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam varius eros consequat auctor gravida. Fusce tristique lacus at urna sollicitudin pulvinar. Suspendisse hendrerit ultrices mauris.
+                            </p>
                         </div>
                     </SwiperSlide>
                     {/* ... */}
@@ -107,74 +95,66 @@ const Comment = () => {
                 <div className="row">
                     <Swiper>
                         <div className="col-12">
-                            <SwiperSlide className="swiper-mobile">
-                                <div className="card mb-3" style={{maxWidth: "550px"}}>
-                                    <div className="row g-0">
-                                        <div className="col-md-5">
-                                            <img src={commentor1} className="img-fluid rounded-start" alt=""/>
-                                        </div>
-                                        <div className="col-md-7">
-                                            <div className="card-body">
-                                                <h5 className="card-title">Jake Paul</h5>
-                                                <p className="card-text text-secondary">Odio ultrices ut. Etiam ac erat ut enim maximus accumsan vel ac nisl. Duis feugiat bibendum orci, non elementum urna.</p>
-                                                <p className="card-text"><small className="text-primary">Patients</small></p>
-                                            </div>
-                                        </div>
+                            <SwiperSlide>
+                                <div className="testimonial">
+                                    <div className="pic">
+                                    <img src={commentor1} className="" alt=""/>
                                     </div>
+                                    <div className="testimonial-profile">
+                                        <h3 className="">Steve Thomas</h3>
+                                        <span className="post">Patient</span>
+                                    </div>
+                                    <p className="description text-center">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam varius eros consequat auctor gravida. Fusce tristique lacus at urna sollicitudin pulvinar. Suspendisse hendrerit ultrices mauris.
+                                    </p>
                                 </div>
                             </SwiperSlide>
                         </div>
                         <div className="col-12">
                             <SwiperSlide>
-                                <div className="card mb-3" style={{maxWidth: "550px"}}>
-                                    <div className="row g-0">
-                                        <div className="col-md-5">
-                                            <img src={commentor2} className="img-fluid rounded-start" alt=""/>
-                                        </div>
-                                        <div className="col-md-7">
-                                            <div className="card-body">
-                                                <h5 className="card-title">Sarah Ruiz</h5>
-                                                <p className="card-text text-secondary">Odio ultrices ut. Etiam ac erat ut enim maximus accumsan vel ac nisl. Duis feugiat bibendum orci, non elementum urna.</p>
-                                                <p className="card-text"><small className="text-primary">Patients</small></p>
-                                            </div>
-                                        </div>
+                                <div className="testimonial">
+                                    <div className="pic">
+                                    <img src={commentor2} className="" alt=""/>
                                     </div>
+                                    <div className="testimonial-profile">
+                                        <h3 className="">Kristina</h3>
+                                        <span className="post">Patient</span>
+                                    </div>
+                                    <p className="description text-center">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam varius eros consequat auctor gravida. Fusce tristique lacus at urna sollicitudin pulvinar. Suspendisse hendrerit ultrices mauris.
+                                    </p>
                                 </div>
                             </SwiperSlide>
                         </div>
                         <div className="col-12">
                             <SwiperSlide>
-                                <div className="card mb-3" style={{maxWidth: "550px"}}>
-                                    <div className="row g-0">
-                                        <div className="col-md-5">
-                                            <img src={commentor1} className="img-fluid rounded-start" alt=""/>
-                                        </div>
-                                        <div className="col-md-7">
-                                            <div className="card-body">
-                                                <h5 className="card-title">Jake Paul</h5>
-                                                <p className="card-text text-secondary">Odio ultrices ut. Etiam ac erat ut enim maximus accumsan vel ac nisl. Duis feugiat bibendum orci, non elementum urna.</p>
-                                                <p className="card-text"><small className="text-primary">Patients</small></p>
-                                            </div>
-                                        </div>
+                                <div className="testimonial">
+                                    <div className="pic">
+                                    <img src={commentor1} className="" alt=""/>
                                     </div>
+                                    <div className="testimonial-profile">
+                                        <h3 className="">Steve Thomas</h3>
+                                        <span className="post">Patient</span>
+                                    </div>
+                                    <p className="description text-center">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam varius eros consequat auctor gravida. Fusce tristique lacus at urna sollicitudin pulvinar. Suspendisse hendrerit ultrices mauris.
+                                    </p>
                                 </div>
                             </SwiperSlide>
                         </div>
                         <div className="col-12">
                             <SwiperSlide>
-                                <div className="card mb-3" style={{maxWidth: "550px"}}>
-                                    <div className="row g-0">
-                                        <div className="col-md-5">
-                                            <img src={commentor2} className="img-fluid rounded-start" alt=""/>
-                                        </div>
-                                        <div className="col-md-7">
-                                            <div className="card-body">
-                                                <h5 className="card-title">Sarah Ruiz</h5>
-                                                <p className="card-text text-secondary">Odio ultrices ut. Etiam ac erat ut enim maximus accumsan vel ac nisl. Duis feugiat bibendum orci, non elementum urna.</p>
-                                                <p className="card-text"><small className="text-primary">Patients</small></p>
-                                            </div>
-                                        </div>
+                                <div className="testimonial">
+                                    <div className="pic">
+                                    <img src={commentor2} className="" alt=""/>
                                     </div>
+                                    <div className="testimonial-profile">
+                                        <h3 className="">Kristina</h3>
+                                        <span className="post">Patient</span>
+                                    </div>
+                                    <p className="description text-center">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam varius eros consequat auctor gravida. Fusce tristique lacus at urna sollicitudin pulvinar. Suspendisse hendrerit ultrices mauris.
+                                    </p>
                                 </div>
                             </SwiperSlide>
                         </div>

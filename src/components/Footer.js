@@ -51,15 +51,12 @@ const Footer = () => {
                             <div className="department">
                                 <h3>Newsletter</h3>
                                 <p>You can trust us. we only send promo offers, not a single spam.</p>
-                                <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&id=92a4423d01" method="get" class="form-inline" novalidate="true">
+                                <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&id=92a4423d01" method="get" className="form-inline" novalidate="true">
                                     <input className="form-control" name="EMAIL" placeholder="Your Email Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Email Address '" required type="email" />
                                     <button className="enter-btn">Enter</button>
                                 </form>
                             </div>
                         </div>
-                        {/* <div className="col-lg-12 col-sm-12">
-                            <p className="text-center copy">Copyright © 2024 by <span><a href="#">Jesnin Vence</a></span></p>
-                        </div> */}
                     </div>
                 </div>
             </div>

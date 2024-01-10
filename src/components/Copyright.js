@@ -4,7 +4,7 @@ const Copyright = () => {
 
     return (
         <>
-            {/* <div className="copyright">
+            <div className="copyright">
                 <div className="container">
                     <div className="row">
                         <div className="col-12">
@@ -12,7 +12,7 @@ const Copyright = () => {
                         </div>
                     </div>
                 </div>
-            </div> */}
+            </div>
         </>
     )
 }

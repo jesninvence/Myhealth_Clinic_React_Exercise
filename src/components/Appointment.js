@@ -9,10 +9,10 @@ const Appointment = () => {
             <div className="line hide-sm hide-xs"></div>
             <div className="apment">
                 <div className="container">
-                    <div className="row">
+                    <div className="row g-5">
                         <div className="col-lg-6 col-sm-12">
                             <h1>Servicing Hours</h1>
-                            <p className="desc" style={{marginBottom: "3rem"}}>Lorem ipsum dolor sit amet, consectetur adipisicing <br></br> elit, sed do eiusmod tempor incididunt ut labore et <br></br> dolore magna aliqua.</p>
+                            <p className="desc" style={{marginBottom: "3rem"}}>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                             <ul className="time-list">
                                 <li className="d-flex justify-content-between">
                                     <span>Monday-Friday</span>
@@ -38,7 +38,7 @@ const Appointment = () => {
                                     <input type="text" className="form-control" name="dop" placeholder="Date of Birth"></input>
                                     <input type="text" className="form-control" name="dop" placeholder="Disease Type"></input>
                                     <input id="datepicker2" className="dates form-control hasDatepicker" placeholder="appointment Date" type="text"></input>
-                                    <textarea name="messege" className rows="5" placeholder="Messege" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Messege'"></textarea>
+                                    <textarea name="messege" rows="5" placeholder="Messege" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Messege'"></textarea>
                                     <button className="primary-btn w-100 text-uppercase">Confirm Booking</button>
                                 </form>
                             </div>
