@@ -60,8 +60,8 @@ const About = () => {
                             <p className="text-center" style={{fontSize: "14px", color: "#575757"}}>Empowering the Filipino people with value-added healthcare management options.</p>
                         </div>
                         <div className="elementor-img text-center">
-                            <div className="container">
-                                <div className="row g-3">
+                            <div className="container-fluid">
+                                <div className="row g-0">
                                     <div className="col-lg-2 col-md-6 col-sm-6">
                                         <img src={compassion} alt=""></img>
                                         <h5>Compassion</h5>

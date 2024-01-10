@@ -9,10 +9,10 @@ const NavigationBar = () => {
 
     return (
         <> 
-        <header className="fixed-top">
+        <header className="fixed-top" id="header">
             <img src={logoImg} className="logo" width="20%"></img>
             <nav>
-                <ul className="nav__links display-xl display-lg hide-md hide-sm hide-xs">
+                <ul className="nav__links navigation-bar display-xl display-lg hide-md hide-sm hide-xs">
                     <li><a href="#">Home</a></li>
                     <li><a href="#services">Services</a></li>
                     <li><a href="#about">About Us</a></li>

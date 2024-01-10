@@ -1,10 +1,11 @@
 import "../style.css";
-import doctors from '../images/Doctors.gif';
+import doctors from '../images/Doctors-pana.png';
 
 const LandingPage = () => {
 
     return (
-        <>
+        <>  
+            <div className="background"></div>
             <div className="landingPage">
                 <div className="container-fluid">
                     <div className="row g-3">
@@ -20,7 +21,7 @@ const LandingPage = () => {
                             </div>
                         </div>
                         <div className="col-xl-6 col-lg-6 hide-md display-lg hide-sm hide-xs">
-                            <img src={doctors} width="100%"></img>
+                            {/* <img src={doctors} width="100%"></img> */}
                         </div>
                     </div>
                 </div>

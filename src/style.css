@@ -20,7 +20,7 @@ li, a {
 header {
   display: flex;
   justify-content: flex-end;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   align-items: center;
   padding: 10px 3%;
   border-bottom: 1px solid #ced4da;
@@ -72,13 +72,13 @@ header {
   }
 
   .landingPage .card h5{
-    margin-top: 7rem !important;
+    margin-top: 5rem !important;
   }
   .landingPage .card {
     padding: 0px 30px 0px 50px !important;
   }
   .landingPage .card .book {
-    width: 70% !important;
+    width: 80% !important;
   }
   .landingPage .card h5, h1, p, button {
     margin-left: 0rem !important;
@@ -144,20 +144,35 @@ header {
   .about .banner {
     margin-bottom: 2rem;
   }
+  .about .elementor-img .col-sm-6 {
+    padding: 20px 0px;
+    border-top: 1px solid #ced4da;
+  }
 
   .doctor {
-    margin-top: 135rem;
+    margin-top: 140rem;
   }
   .doctor .desc {
     padding: 0px 20px;
   }
-  .doctor .card-body button {
-    width: 100% !important;
-    font-size: 20px !important;
+  .doctor .card .card-body h3 {
+    font-size: 38px;
+  }
+  .doctor .card .card-body p {
+    font-size: 20px;
+  }
+  .doctor .card .card-body .lrn {
+    width: 40% !important;
+    padding: 10px 0px !important;
+    font-size: 23px !important;
   }
 
   .patient {
     margin-bottom: 0rem !important;
+  }
+
+  .footer .copy {
+    background-image: url(images/dwblur5.png);
   }
 }
 
@@ -167,6 +182,9 @@ header {
   }
   .display-sm {
     display: flex !important;
+  }
+  .hide-smd {
+    display: none !important;
   }
   
   header {
@@ -245,12 +263,19 @@ header {
   .doctor {
     margin-top: 78rem !important;
   }
+  .doctor .card .card-body h3 {
+    font-size: 35px;
+  }
+  .doctor .card .card-body p {
+    font-size: 20px;
+  }
   .doctor .desc {
     padding: 0px 20px;
   }
-  .doctor button {
-    width: 45% !important;
-    font-size: 20px !important;
+  .doctor .card .card-body .lrn {
+    width: 40% !important;
+    padding: 10px 0px !important;
+    font-size: 23px !important;
   }
 
   .patient {
@@ -329,7 +354,7 @@ header {
   }
 
   .landingPage .card h5 {
-    margin-top: 5rem !important;
+    margin-top: 6rem !important;
   }
   .landingPage .card button {
     width: 60% !important;
@@ -455,10 +480,17 @@ header {
 /**** LANDING PAGE ****/
 
 .landingPage {
-  margin-top: 3rem;
+  background-image: url(images/doctorwallpaper5.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 5.9rem !important;
+  height: 100vh;
+  margin-bottom: 5rem;
 }
 
 .landingPage .card {
+  background-color: #00000000;
   padding: 0px 0px 0px 80px;
   margin-top: 10rem;
   border: none;
@@ -466,9 +498,8 @@ header {
 }
 
 .landingPage h5 {
-  margin-top: 8rem;
   font-size: 17px;
-  color: #222;
+  color: #fff;
   font-weight: 400;
 }
 
@@ -487,7 +518,7 @@ header {
 
 .landingPage p {
     font-family: 'Montserrat', sans-serif;
-    color: #666666;
+    color: #fff;
     font-weight: 400;
 }
 
@@ -730,56 +761,67 @@ section .card p {
 
 /**** DOCTORS ****/
 
+.doctor {
+  padding: 0px 30px;
+}
+
 .doctor .card h3 {
-  font-weight: 600;
-  font-size: 25px;
+  color: #222;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.doctor .card p {
+  font-size: 13px;
+  letter-spacing: 1px;
+  color: #0084ff;
+}
+
+.doctor .card-body .dr-desc {
+  color: #495057;
+  letter-spacing: 0px;
+  font-size: 14px;
 }
 
 .doctor .card .lrn {
-  background-color: #00e1ff;
+  background-color: #0084ff;
   margin: .5rem;
-  color: #0a3f71;
+  color: #fff;
   width: 40%;
-  border-radius: 10px;
-  font-size: 15px;
+  border-radius: 50px;
+  font-size: 15px !important;
   letter-spacing: 1px;
-  padding: 5px 20px;
+  padding: 8px 18px;
   border: none;
   margin-left: 0rem;
 }
 
-.doctor .card .cntct {
-  background-color: transparent;
-  color: white;
-  box-shadow: 0 0 0 1px white;
-  width: 50%;
-  border-radius: 10px;
-  font-size: 15px;
-  letter-spacing: 1px;
-  padding: 5px 20px;
-  border: none;
-}
-
 .doctor .card .lrn:hover {
-  background-color: #18c3da;
-  transition: .3s ease-in-out;
-}
-
-.doctor .card .cntct:hover {
-  background-color: #09355e;
+  background-color: #0a3f71;
   transition: .3s ease-in-out;
 }
 
 .doctor .card {
   border: none;
+  border-radius: 0px;
   transition: .3s ease-in-out;
-  background-color: #0a3f71;
   color: white;
 }
 
 .doctor .card:hover {
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   transition: .3s ease-in-out;
+}
+
+.doctor .card .card-body h3 {
+  font-size: 20px;
+}
+.doctor .card .card-body p {
+  font-size: 14px;
+}
+.doctor .card .card-body .lrn {
+  width: 50% !important;
+  font-size: 15px !important;
 }
 
 /**** COMMENT ****/
@@ -828,6 +870,31 @@ section .card p {
   border-radius: 10px;
 }
 
+.res-patient {
+  margin-top: 3rem;
+  background-color: #f9f9fd;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+  padding: 50px 50px !important;
+}
+
+.res-patient .card {
+  margin-bottom: 3rem !important;
+  border: none;
+  padding: 20px 10px;
+}
+
+.res-patient .card img {
+  border-radius: 10px;
+}
+
+.res-patient .card-title {
+  font-size: 35px;
+}
+
+.res-patient .card-text {
+  font-size: 20px;
+}
+
 /**** APPOINTMENT ****/
 
 /*** https://preview.colorlib.com/#medical ***/
@@ -846,7 +913,7 @@ section .card p {
 
 .apment .time-list li {
   border-bottom: 1px solid #eee;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
   color: #222;
   margin-bottom: 20px;
@@ -865,8 +932,8 @@ section .card p {
 .apment .appointment-area .form-wrap .form-control {
   margin-bottom: 1rem !important;
   border-radius: 0px;
-  padding: 0.675rem 0.75rem;
-  font-size: 13px;
+  padding: 1.5rem 0.75rem;
+  font-size: 14px;
   font-weight: 300;
 }
 
@@ -906,10 +973,20 @@ section .card p {
 /**** FOOTER ****/
 
 .footer {
-  padding: 100px;
+  overflow: hidden;
+  width: 100%;
   height: 100%;
-  background-color: #ffffff;
-  background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23dddddd' fill-opacity='0.92'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  /* background-color: #ffffff;
+  background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23dddddd' fill-opacity='0.92'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"); */
+  background-image: url(images/dwblur4.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.footer .container {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 
 .footer .desc img {
@@ -938,9 +1015,9 @@ section .card p {
 .footer .department p a {
   text-decoration: none;
   margin-top: 0rem;
-  font-size: 16px;
+  font-size: 17px;
   font-weight: 400;
-  color: #000;
+  color: #222;
   line-height: 22px;
 }
 
@@ -952,12 +1029,38 @@ section .card p {
 
 .footer .address p {
   font-weight: 400;
-  color: #000;
+  color: #222;
   font-size: 15px;
 }
 
 .footer-icon {
-  color: #0a3f71;
+  color: #0084ff;
+}
+
+.footer .fb-icon {
+  font-size: 26px;
+  color: white;
+  background-color: #0084ff;
+  padding: 10px 17px;
+  border-radius: 50%;
+}
+
+.footer .twit-icon {
+  font-size: 26px;
+  color: white;
+  background-color: #0084ff;
+  padding: 10px 13px;
+  margin-left: 1rem;
+  border-radius: 50%;
+}
+
+.footer .ig-icon {
+  font-size: 26px;
+  color: white;
+  background-color: #0084ff;
+  padding: 10px 13px;
+  margin-left: 1rem;
+  border-radius: 50%;
 }
 
 .footer .department p {

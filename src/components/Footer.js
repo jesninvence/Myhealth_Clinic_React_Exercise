@@ -6,6 +6,10 @@ import { faPhone } from "@fortawesome/free-solid-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faPrint } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowRightLong } from "@fortawesome/free-solid-svg-icons";
+import { faFacebookF } from "@fortawesome/free-brands-svg-icons";
+import { faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 import logoImg from '../images/MyHealth_Logo_onWhite-2.png';
 
 const Footer = () => {
@@ -17,18 +21,21 @@ const Footer = () => {
                     <div className="row g-5">
                         <div className="col-lg-3 col-sm-12">
                             <div className="desc">
-                                <img src={logoImg} alt="" width="90%"/>
-                                <p>Firmament morning sixth subdue darkness creeping gathered divide.</p>
+                                <img src={logoImg} alt="" width="100%"/>
+                                <p style={{marginBottom: "2rem"}}>Firmament morning sixth subdue darkness creeping gathered divide.</p>
+                                <a className="fb-icon"><FontAwesomeIcon icon={faFacebookF}/></a>
+                                <a className="twit-icon"><FontAwesomeIcon icon={faTwitter}/></a>
+                                <a className="ig-icon"><FontAwesomeIcon icon={faInstagram}/></a>
                             </div>
                         </div>
                         <div className="col-lg-3 col-sm-12">
                             <div className="department">
                                 <h3>Departments</h3>
-                                <p><a href="#">Eye Care</a></p>
-                                <p><a href="#">Skin Care</a></p>
-                                <p><a href="#">Pathology</a></p>
-                                <p><a href="#">Medicine</a></p>
-                                <p><a href="#">Dental</a></p>
+                                <p><a href="#"><FontAwesomeIcon icon={faArrowRightLong} className="footer-icon" /> Eye Care</a></p>
+                                <p><a href="#"><FontAwesomeIcon icon={faArrowRightLong} className="footer-icon" /> Skin Care</a></p>
+                                <p><a href="#"><FontAwesomeIcon icon={faArrowRightLong} className="footer-icon" /> Pathology</a></p>
+                                <p><a href="#"><FontAwesomeIcon icon={faArrowRightLong} className="footer-icon" /> Medicine</a></p>
+                                <p><a href="#"><FontAwesomeIcon icon={faArrowRightLong} className="footer-icon" /> Dental</a></p>
                             </div>
                         </div>
                         <div className="col-lg-3 col-sm-12">
@@ -50,6 +57,9 @@ const Footer = () => {
                                 </form>
                             </div>
                         </div>
+                        {/* <div className="col-lg-12 col-sm-12">
+                            <p className="text-center copy">Copyright © 2024 by <span><a href="#">Jesnin Vence</a></span></p>
+                        </div> */}
                     </div>
                 </div>
             </div>

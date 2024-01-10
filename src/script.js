@@ -14,3 +14,14 @@ if(mobileClose){
     })
 }
 
+// function transBar() {
+//     const navbar = document.querySelector("#header .navigation-bar");
+//     window.addEventListener("scroll", scrollTrans);
+//     function scrollTrans() {
+//         if (window.scrollY > 0) {
+//             navbar.style.background = "transparent";
+//         } else {
+//             navbar.style.background = "white";
+//         }
+//     }
+// }
