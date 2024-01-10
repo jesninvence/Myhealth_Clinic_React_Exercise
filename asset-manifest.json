@@ -1,12 +1,14 @@
 {
   "files": {
-    "main.css": "/Myhealth_Clinic_React_Exercise/static/css/main.6a22d612.css",
-    "main.js": "/Myhealth_Clinic_React_Exercise/static/js/main.25ee155c.js",
+    "main.css": "/Myhealth_Clinic_React_Exercise/static/css/main.1705f798.css",
+    "main.js": "/Myhealth_Clinic_React_Exercise/static/js/main.a119fa7a.js",
     "static/js/787.c0c72bed.chunk.js": "/Myhealth_Clinic_React_Exercise/static/js/787.c0c72bed.chunk.js",
     "static/media/Doctors2.gif": "/Myhealth_Clinic_React_Exercise/static/media/Doctors2.81535abefab21a23eb72.gif",
     "static/media/Doctors.gif": "/Myhealth_Clinic_React_Exercise/static/media/Doctors.c2e09bbce06987f74ec0.gif",
     "static/media/OnlineDoctor-rafiki.png": "/Myhealth_Clinic_React_Exercise/static/media/OnlineDoctor-rafiki.a2cb11dcf3faa83b5908.png",
     "static/media/MyHealth_Logo_onWhite-2.png": "/Myhealth_Clinic_React_Exercise/static/media/MyHealth_Logo_onWhite-2.a5be27c48c4da62ae713.png",
+    "static/media/pic1.jpg": "/Myhealth_Clinic_React_Exercise/static/media/pic1.ff3509e78b1870c8076d.jpg",
+    "static/media/pic2.jpg": "/Myhealth_Clinic_React_Exercise/static/media/pic2.814cc4aed94be613cd62.jpg",
     "static/media/ser3.png": "/Myhealth_Clinic_React_Exercise/static/media/ser3.85c1b70bb9647de39222.png",
     "static/media/doc3.webp": "/Myhealth_Clinic_React_Exercise/static/media/doc3.35e474de778e05d6f717.webp",
     "static/media/doc1.webp": "/Myhealth_Clinic_React_Exercise/static/media/doc1.8281de4e2750d377101f.webp",
@@ -33,12 +35,12 @@
     "static/media/advancetec.webp": "/Myhealth_Clinic_React_Exercise/static/media/advancetec.90c5dfcb66675ac0979b.webp",
     "static/media/qequip.webp": "/Myhealth_Clinic_React_Exercise/static/media/qequip.2763a17002ae56a27b86.webp",
     "index.html": "/Myhealth_Clinic_React_Exercise/index.html",
-    "main.6a22d612.css.map": "/Myhealth_Clinic_React_Exercise/static/css/main.6a22d612.css.map",
-    "main.25ee155c.js.map": "/Myhealth_Clinic_React_Exercise/static/js/main.25ee155c.js.map",
+    "main.1705f798.css.map": "/Myhealth_Clinic_React_Exercise/static/css/main.1705f798.css.map",
+    "main.a119fa7a.js.map": "/Myhealth_Clinic_React_Exercise/static/js/main.a119fa7a.js.map",
     "787.c0c72bed.chunk.js.map": "/Myhealth_Clinic_React_Exercise/static/js/787.c0c72bed.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6a22d612.css",
-    "static/js/main.25ee155c.js"
+    "static/css/main.1705f798.css",
+    "static/js/main.a119fa7a.js"
   ]
 }
