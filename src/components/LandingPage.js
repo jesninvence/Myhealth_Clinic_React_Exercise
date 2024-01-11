@@ -15,7 +15,7 @@ const LandingPage = () => {
                                 <h1>We <span>care about </span>
                                   your <span>health</span>
                                 </h1>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.Risus cmodo viverra.
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse.
                                 </p>
                                 <button className="book">Book an Appointment</button>
                             </div>
