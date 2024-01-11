@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Myhealth_Clinic_React_Exercise/static/css/main.1705f798.css",
-    "main.js": "/Myhealth_Clinic_React_Exercise/static/js/main.a119fa7a.js",
+    "main.css": "/Myhealth_Clinic_React_Exercise/static/css/main.b36a90ca.css",
+    "main.js": "/Myhealth_Clinic_React_Exercise/static/js/main.800da166.js",
     "static/js/787.c0c72bed.chunk.js": "/Myhealth_Clinic_React_Exercise/static/js/787.c0c72bed.chunk.js",
     "static/media/Doctors2.gif": "/Myhealth_Clinic_React_Exercise/static/media/Doctors2.81535abefab21a23eb72.gif",
     "static/media/Doctors.gif": "/Myhealth_Clinic_React_Exercise/static/media/Doctors.c2e09bbce06987f74ec0.gif",
@@ -35,12 +35,12 @@
     "static/media/advancetec.webp": "/Myhealth_Clinic_React_Exercise/static/media/advancetec.90c5dfcb66675ac0979b.webp",
     "static/media/qequip.webp": "/Myhealth_Clinic_React_Exercise/static/media/qequip.2763a17002ae56a27b86.webp",
     "index.html": "/Myhealth_Clinic_React_Exercise/index.html",
-    "main.1705f798.css.map": "/Myhealth_Clinic_React_Exercise/static/css/main.1705f798.css.map",
-    "main.a119fa7a.js.map": "/Myhealth_Clinic_React_Exercise/static/js/main.a119fa7a.js.map",
+    "main.b36a90ca.css.map": "/Myhealth_Clinic_React_Exercise/static/css/main.b36a90ca.css.map",
+    "main.800da166.js.map": "/Myhealth_Clinic_React_Exercise/static/js/main.800da166.js.map",
     "787.c0c72bed.chunk.js.map": "/Myhealth_Clinic_React_Exercise/static/js/787.c0c72bed.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1705f798.css",
-    "static/js/main.a119fa7a.js"
+    "static/css/main.b36a90ca.css",
+    "static/js/main.800da166.js"
   ]
 }
